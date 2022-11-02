@@ -21,7 +21,7 @@ public class BrandManager implements BrandService {
 
 	@Override
 	public List<Brand> getAll() {
-		return brandRepository.getAll();
+		return brandRepository.findAll();
 	}
 
 }
